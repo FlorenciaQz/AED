@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: 00-CppHelloWorld, Configuration: Debug Win32 ------
+1>00-CppHelloWorld.cpp
+1>00-CppHelloWorld.vcxproj -> C:\Users\Administrator\Documents\Algoritmos 2020\00-CppHelloWorld\00-CppHelloWorld\00-CppHelloWorld\Debug\00-CppHelloWorld.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
