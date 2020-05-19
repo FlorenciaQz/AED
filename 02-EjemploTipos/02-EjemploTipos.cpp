@@ -1,3 +1,9 @@
+/*
+* 02-EjemploTipos
+* Quiñonez Florencia
+* 05/18/2020
+*/
+
 #include <iostream>
 #include <cassert>
 using namespace std;
