@@ -37,13 +37,11 @@ int main()
     //Tipo de dato Char
 
     char a = '@';
+    char b = 64;
+
+    assert(a == b);
     assert(64 == a);
-
-    //Tipo de dato Int
-    
-    int b = 555;
-    assert(555 == b);
-
+    assert('@' == b);
 
     //Tipo de dato String
 
