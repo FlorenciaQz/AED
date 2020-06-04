@@ -25,7 +25,7 @@
 
 Sean a, b ∈ Z,
 
-  Sí a < b, a es el valor mínimo. 
+  Sí a < b, a es el valor mínimo ya que es el más próximo al 0.
 
 3. Función f3:
 
