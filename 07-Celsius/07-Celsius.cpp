@@ -21,8 +21,10 @@ int main()
     assert(AreNear(Celsius(19), -7.222, 0.001));
     assert(AreNear(Celsius(32), 0, 0.001));
     assert(AreNear(Celsius(38), 3.333, 0.001));
-    assert(AreNear(Celsius(39), 3.888, 0.001));    
-
+    assert(AreNear(Celsius(39), 3.888, 0.001));
+    assert(not AreNear(Celsius(-20), -30.000, 0.001));
+    assert(not AreNear(Celsius(-16), -28, 0.001));
+    assert(not AreNear(Celsius(0), -17.799, 0.001));
 }
 
 double Celsius(double fahrenheit) {
