@@ -70,7 +70,7 @@ IsBisiesto= N → B /x ^ ((y ^ -z) ˅ w)
 
 ### Modelo IPO
 
-
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/09-Bisiesto/ModeloIPO.png)
 
 
 
