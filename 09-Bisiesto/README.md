@@ -31,7 +31,7 @@ Dado un año, determinar si es bisiesto.
 • Desarrollar la lógica en una función.
 
 • El nombre de la función debe ser IsBisiesto
-.
+
 • Aplicar operadores booleanos
 
 • No aplicar el operador condicional.
@@ -65,6 +65,10 @@ w = a es divisible por 400
 IsBisiesto= N → B /x ^ ((y ^ -z) ˅ w) 
 
 ### Árbol de expresión
+
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/09-Bisiesto/ArbolDeExpresion.png)
+
+### Modelo IPO
 
 
 
