@@ -58,9 +58,13 @@ Sea a ∈ N, IsBisiesto ∈ B
 Sean:
 
 x = a > 1582
+
 y = a es divisible por 4
+
 z = a es divisible por 100
+
 w = a es divisible por 400
+
 
 IsBisiesto= N → B /x ^ ((y ^ -z) ˅ w) 
 
