@@ -15,7 +15,8 @@ Según el cal stack dado se puede entender que el orden es el siguiente:
 2. main llama a foo
 3. foo llama a bar
 
-*Diagrama1
+*Insertar Imagen:
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/Ejercitaci%C3%B3n-CallStack/Ejercicio1.png)
 
 # Ejercicio 2 
 
@@ -24,4 +25,6 @@ Dibuje la secuencia de estados de call stack para el programa ejemplo "Saludos" 
 -Cada instante presenta el call stack en un estado determinado 
 -Tanto en el priemr instante como en el último instante el stack está vacío
 
-*Diagrama2
+Insertar Imagen:
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/Ejercitaci%C3%B3n-CallStack/Ejercicio2.png)
+
