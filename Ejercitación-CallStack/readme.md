@@ -1,0 +1,27 @@
+# Ejercicio 1
+
+
+Dado el call stack 
+
+- 3 Bar
+- 2 foo 
+- 1 main 
+
+¿Cuál función llamó a cuál?
+
+Según el cal stack dado se puede entender que el orden es el siguiente:
+
+1. SO llama a main
+2. main llama a foo
+3. foo llama a bar
+
+*Diagrama1
+
+# Ejercicio 2 
+
+Dibuje la secuencia de estados de call stack para el programa ejemplo "Saludos" del texto Funciones:
+
+-Cada instante presenta el call stack en un estado determinado 
+-Tanto en el priemr instante como en el último instante el stack está vacío
+
+*Diagrama2
