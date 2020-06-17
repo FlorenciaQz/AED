@@ -33,10 +33,11 @@ Insertar Imagen:
 Ejecute "Mostrar Adición de Dos Números Solicitados" del texto Funciones y deje que el proceso se bloquee esperando input. Para ese instante:
 
 1. Dibuje el call stack
-2. Busque en su sistema Operativo una herramienta que permita inspeccionar el call stack y compare con su dibujo. Ayuda: ActivityMonitor y Task Manager
-3. Utilice un IDE con debugger para inspeccionar el call stack, comapre con su dibujo.
-
-1.
 
 ![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/Ejercitaci%C3%B3n-CallStack/Ejercicio3.png)
 
+2. Busque en su sistema Operativo una herramienta que permita inspeccionar el call stack y compare con su dibujo. Ayuda: ActivityMonitor y Task Manager
+
+3. Utilice un IDE con debugger para inspeccionar el call stack, comapre con su dibujo.
+
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/Ejercitaci%C3%B3n-CallStack/CallStack.png)
