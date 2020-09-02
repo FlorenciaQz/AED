@@ -71,6 +71,7 @@ IsBisiesto= N → B /x ^ ((y ^ -z) ˅ w)
 ### Árbol de expresión
 
 ![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/09-Bisiesto/DiagramaArbolDeExpresion.png)
+![alt text](https://raw.githubusercontent.com/FlorenciaQz/AED/master/09-Bisiesto/DiagramaArbolDeExpresion-Extendido.png)
 
 ### Modelo IPO
 
