@@ -9,8 +9,8 @@ using namespace std;
 // Definicion tipo de dato
 
 struct Punto{
-    int x;
-    int y;
+    double x;
+    double y;
 };
 
 struct Triangulo{
@@ -33,19 +33,22 @@ struct Poligono{
 
 Punto AgregarPunto();
 double DistanciaEntreDosPuntos(Punto, Punto);
+void MoverPunto(Punto&, double, double);
 
 //Funciones de Triangulo
 
 Triangulo CrearTriangulo ();
-void CambiarColorTriangulo (Triangulo&, string);
-//void MoverTriangulo (Triangulo&, Punto, Punto, Punto);
+void SetColorTriangulo (Triangulo&, string);
+string GetColorTriangulo (const Triangulo&);
+void MoverPuntoDeTriangulo (Triangulo&, Punto, double, double);
 double GetPerimetroTriangulo (const Triangulo&);
 //double GetAreaTriangulo (const Triangulo&);
 
 //Funciones de Poligono
 
 Poligono CrearPoligono (unsigned);
-void CambiarColorPoligono(Poligono&, string);
+void SetColorPoligono(Poligono&, string);
+string GetColorPoligono (const Poligono&);
 //void MoverPoligono (Poligono&);
 double GetPerimetro (const Poligono&);
 double GetArea (const Poligono&);
@@ -55,14 +58,14 @@ int main(){
 
     Triangulo trianguloTest = {{0,0},{2,0},{1,3},"Azul"};
     
-    CambiarColorTriangulo(trianguloTest, "Rojo");
+    SetColorTriangulo(trianguloTest, "Rojo");
     assert(trianguloTest.color == "Rojo");
 
-    CambiarColorTriangulo(trianguloTest, "Verde");
-    assert(trianguloTest.color == "Verde");
+    SetColorTriangulo(trianguloTest, "Verde");
+    assert("Verde" == GetColorTriangulo(trianguloTest));
 
-    CambiarColorTriangulo(trianguloTest, "Amarillo");
-    assert(trianguloTest.color == "Amarillo");
+    SetColorTriangulo(trianguloTest, "Amarillo");
+    assert(GetColorTriangulo(trianguloTest) == "Amarillo");
 
     cout << GetPerimetroTriangulo(trianguloTest); 
 
@@ -73,6 +76,8 @@ int main(){
 
 
 };
+
+//Definicion Funciones
 
 //Funciones de Punto
 
@@ -93,6 +98,13 @@ double DistanciaEntreDosPuntos(Punto a, Punto b){
     double ladoB = (a.y - b.y)*(a.y - b.y);
 
     return sqrt(ladoA + ladoB);
+
+}
+
+void MoverPunto(Punto& punto, double nuevoX, double nuevoY){
+
+    punto.x = nuevoX;
+    punto.y = nuevoY;
 
 }
 
@@ -120,12 +132,17 @@ Triangulo CrearTriangulo (){
 
 }
 
-void CambiarColorTriangulo (Triangulo& triangulo, string nuevoColor){
+void SetColorTriangulo (Triangulo& triangulo, string nuevoColor){
 
     triangulo.color = nuevoColor;
 
 }
 
+string GetColorTriangulo (const Triangulo& triangulo){
+
+    return triangulo.color;
+
+}
 
 //Problema: Devolver sólo dos decimales o buscar la forma de usar un assert
 double GetPerimetroTriangulo (const Triangulo& triangulo){
@@ -135,10 +152,17 @@ double GetPerimetroTriangulo (const Triangulo& triangulo){
 
 }
 
+void MoverPuntoDeTriangulo (Triangulo& triangulo, Punto punto, double nuevox, double nuevoy){
+
+    MoverPunto(punto, nuevox, nuevoy);
+
+}
+
 
 //Funciones de Poligono
 
 Poligono CrearPoligono (unsigned numeroVertices){
 
+    for (int i = 0, i <= numeroVertices, i++)
 
 }
